@@ -32,7 +32,7 @@ Further details on getting clean data is provided in the [Analysis notebook][not
 
 ![temp]
 
-The obvious trend that we observe is that the temperrature is generally high near the lower valued latitudes. There due to planetary tilt, the north and southern hemispheres experience seasons that vastly change the amount of radiant flux from the sun. This results in colder temperatures in the northern hemisphere (positive latitudes, winter) than in the southern hemisphere (which is, at the time of these measurements, in summer).
+The obvious trend that we observe is that the temperrature is generally high near the lower valued latitudes. Due to planetary tilt, the north and southern hemispheres experience seasons that vastly change the amount of radiant flux from the sun. This results in colder temperatures in the northern hemisphere (positive latitudes, winter) than in the southern hemisphere (which is, at the time of these measurements, in summer).
 
 The clouds, humidity and windspeed data dont appear to reveal much information. We can observe that there are no major tropical storms near the selected cities occurring at this time, since windspeeds at ground level appear to be below 70 mph. 
 
