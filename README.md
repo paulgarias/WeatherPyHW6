@@ -1,14 +1,21 @@
 # What's the Weather Like?
 
-### Paul G. Arias
+### Paul G. Arias, Ph.D.
 
 ### Scatter plots
 
 In order to find out some general trends about global weather behavior, I use an API called [OpenWeatherMap API][OWMAPI] to get weather data and a python library called [CitiPy][citipy] to get a city, given spatial coordinates.
 
+To get a grid of spatial coordinates, I used the following code:
+
 ```python
 np.linspace
 ```
+
+![temp]
+![clouds]
+![humidity]
+![windspeed]
 
 
 
