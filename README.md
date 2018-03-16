@@ -26,6 +26,8 @@ for lon in long_range:
         city = citipy.nearest_city(lon,lat)
 ```
 
+Further details on getting clean data is provided in the [Analysis notebook][notebook]
+
 ### Scatter plots
 
 ![temp]
@@ -93,3 +95,4 @@ Coding Boot Camp (C) 2016. All Rights Reserved.
 [clouds]: figures/Clouds.png
 [humidity]: figures/Humidity.png
 [windspeed]: figures/Windspeed.png
+[notebook]: Analysis.ipynb
