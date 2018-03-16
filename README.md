@@ -2,15 +2,31 @@
 
 ### Paul G. Arias, Ph.D.
 
-### Scatter plots
+## Summary of results
+
+1) No observable trends for humidty, cloud overcast, and windspeed. 
+2) Temperature is highest near equatorial regions. 
+3) Northern hemisphere (positive latitudes) is in winter.
+
+### Methodology
 
 In order to find out some general trends about global weather behavior, I use an API called [OpenWeatherMap API][OWMAPI] to get weather data and a python library called [CitiPy][citipy] to get a city, given spatial coordinates.
 
 To get a grid of spatial coordinates, I used the following code:
 
 ```python
-np.linspace
+long_range = np.linspace(-180,179,100)
+lat_range = np.linspace(-90,89,100)
 ```
+which creates a grid of evenly spaced coordinates grids. This allows us to create two for loops and provide the coordinates to the [CitiPy][citipy] library and get a nearby city:
+
+```python
+for lon in long_range:
+    for lat in lat_range:
+        city = citipy.nearest_city(lon,lat)
+```
+
+### Scatter plots
 
 ![temp]
 ![clouds]
